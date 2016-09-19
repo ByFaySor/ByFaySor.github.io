@@ -1,0 +1,295 @@
+* {
+	margin: 0;
+	font-family: Cambria;
+	outline: 0;
+	padding: 0;
+}
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+a:hover {
+	border-bottom: 5px solid coral;
+}
+body {
+	background: #F1F1F1;
+	background-image: url('../img/fondos/pattern.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+.container {
+	background: #FFF;
+	background-image: url('../img/fondos/pattern.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+
+	margin: 0.5em auto;
+	width: 98%;
+}
+
+header {
+	margin-top: 1em;
+	text-align: center;
+}
+
+h1, .frase p span {
+	border: 1px solid #FFF;
+	color: #FFF;
+	display: inline-block;
+	padding: 0.5em;
+	position: relative;
+	text-align: center;
+	text-shadow: 0 1px 2px #000;
+	font-family: "Script MT Bold";
+}
+h2, h3 {
+	display: inline-block;
+}
+h3 {
+	background: coral;
+	border: 1px solid #FFF;
+	margin-left: 0.5em;
+	font-size: 1em;
+	padding: 0.4em;
+}
+h1 span {
+	color: #000;
+	margin-left: 0.5em;
+	font-size: 0.5em;
+	text-shadow: 0 1px 2px #FFF;
+	font-family: "Pristina";
+}
+.frase p {
+	color: #FFF;
+	display: block;
+	font-family: "Script MT Bold";
+	font-size: 3em;
+	line-height: 2em;
+	text-shadow: 0 1px 2px #000;
+}
+.frase p span {
+	color: #000;
+}
+header img {
+	border: 1px solid #FFF;
+	background: #FFF;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 1em auto;
+	float: left;
+	width: 30%;
+}
+aside {
+	background: #FFF;
+	border-top: 1px solid #D6D6D6;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+	width: 100%;
+}
+aside img {
+	display: inline-block;
+	margin: 0;
+	height: 40px;
+	padding: 0.5em;
+	transition: all 0.4s ease;
+	width: 40px;
+}
+aside p {
+	color: #000;
+	display: inline-block;
+	line-height: 3.5em;
+	vertical-align: top;
+}
+aside .rd-social-compart {
+	display: inline-block;
+	float: right;
+}
+aside .rd-social-compart img {
+	display: inline-block;
+}
+aside img:hover {
+	transform: scale(1.2);
+}
+
+.IFoto {
+	border-radius: 0;
+	border: 2px solid #FFF;
+	height: 18em;
+}
+
+.item p {
+	display: none;
+}
+.photo-rs {
+	margin-top: 2em;
+}
+.red-socials {
+	width: 50px;
+	float: left;
+}
+.red-socials img {
+	display: block;
+	height: 35px;
+	margin-left: 0.5em;
+	margin-top: 0.7em;
+	width: 35px;
+}
+.red-social img {
+	transition: all 0.4s ease;
+}
+.red-social img:hover {
+	transform: scale(1.2);
+}
+.red-social img:hover + span {
+	visibility: visible;
+}
+.red-social span {
+	background: #212121;
+	border-right: 2px solid #FFF;
+	color: #FFF;
+	visibility: hidden;
+	margin-left: 1em;
+	padding: 1em;
+	position: absolute;
+	z-index: 100;
+}
+#span-1 {
+	margin-top: 0.4em;
+}
+#span-2 {
+	margin-top: 4.4em;
+}
+#span-3 {
+	margin-top: 8.4em;
+}
+#span-4 {
+	margin-top: 12.4em;
+}
+#span-5 {
+	margin-top: 16.4em;
+}
+.red-social span:after {
+	content: "";
+	border-left: 10px solid transparent;
+	border-top: 10px solid transparent;
+	border-right: 10px solid #212121;
+	border-bottom: 10px solid transparent;
+	margin-top: -1.2em;
+	margin-left: -2.5em;
+	display: block;
+	position: absolute;
+}
+.clear-left {
+	clear: left;
+}
+.item {
+	background: #FFF;
+	border: 1px solid #D6D6D6;
+	margin: 2em auto;
+	width: 95%;
+}
+.item .item-title {
+	background: #3596D0;
+	color: #FFF;
+	padding: 1em;
+	text-shadow: 0 1px 2px #000;
+}
+.item .item-subtitle {
+	background: #3F99CE;
+	color: #FFF;
+	padding: 0.5em;
+	padding-left: 2em;
+    text-shadow: 1px 2px 2px #000;
+}
+.item p {
+	padding: 0.5em;
+}
+.row {
+	text-align: center;
+	margin: 1em 1em;
+}
+.row .item {
+	display: inline-block;
+	margin: 0;
+	margin-top: 1em;
+	padding: 0;
+	text-align: center;
+}
+.item .item-img {
+	display: block;
+	width: 100%;
+}
+.row .item .item-img img {
+	display: inline-block;
+	margin: 1em auto;
+	margin-bottom: 1em;
+	height: 250px;
+	width: 80%;
+}
+.flotar-left {
+	float: left;
+}
+.col-1 {
+	width: 10%;
+}
+.col-2 {
+	width: 20%;
+}
+.col-3 {
+	width: 30%;
+}
+.col-4 {
+	width: 40%;
+}
+.col-5 {
+	width: 50%;
+}
+.col-6 {
+	width: 60%;
+}
+.col-7 {
+	width: 70%;
+}
+.col-8 {
+	width: 80%;
+}
+.col-9 {
+	width: 90%;
+}
+.col-10 {
+	width: 100%;
+}
+
+#barra-bottom {
+	transition: all 0.1s ease-in;
+	visibility: hidden;
+}
+#red-socials {
+	transition: all 0.1s ease-in;
+}
+
+@media screen and (max-width: 900px) {
+	.frase p {
+		font-size: 2em;
+	}
+	.item .item-title h4 {
+		font-size: 0.8em;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.col-2 {
+		width: 40%;
+	}
+	.red-social span {
+		padding: 0.2em;
+		overflow: hidden;
+    	text-overflow: ellipsis;
+    	white-space: nowrap;
+		width: 50%;
+	}
+}
