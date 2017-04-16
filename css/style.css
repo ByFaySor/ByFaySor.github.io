@@ -8,9 +8,7 @@ a {
 	color: #FFF;
 	text-decoration: none;
 }
-a:hover {
-	border-bottom: 5px solid coral;
-}
+a:hover {border-bottom: 5px solid coral;}
 body {
 	background: #F1F1F1;
 	background-image: url('../img/fondos/pattern.png');
@@ -25,7 +23,6 @@ body {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
-
 	margin: 0.5em auto;
 	width: 98%;
 }
@@ -45,9 +42,7 @@ h1, .frase p span {
 	text-shadow: 0 1px 2px #000;
 	font-family: "Script MT Bold";
 }
-h2, h3 {
-	display: inline-block;
-}
+h2, h3 {display: inline-block;}
 h3 {
 	background: coral;
 	border: 1px solid #FFF;
@@ -70,9 +65,7 @@ h1 span {
 	line-height: 2em;
 	text-shadow: 0 1px 2px #000;
 }
-.frase p span {
-	color: #000;
-}
+.frase p span {color: #000;}
 header img {
 	border: 1px solid #FFF;
 	background: #FFF;
@@ -108,12 +101,8 @@ aside .rd-social-compart {
 	display: inline-block;
 	float: right;
 }
-aside .rd-social-compart img {
-	display: inline-block;
-}
-aside img:hover {
-	transform: scale(1.2);
-}
+aside .rd-social-compart img {display: inline-block;}
+aside img:hover {transform: scale(1.2);}
 
 .IFoto {
 	border-radius: 0;
@@ -121,12 +110,8 @@ aside img:hover {
 	height: 18em;
 }
 
-.item p {
-	display: none;
-}
-.photo-rs {
-	margin-top: 2em;
-}
+.item p {display: none;}
+.photo-rs {margin-top: 2em;}
 .red-socials {
 	width: 50px;
 	float: left;
@@ -138,15 +123,9 @@ aside img:hover {
 	margin-top: 0.7em;
 	width: 35px;
 }
-.red-social img {
-	transition: all 0.4s ease;
-}
-.red-social img:hover {
-	transform: scale(1.2);
-}
-.red-social img:hover + span {
-	visibility: visible;
-}
+.red-social img {transition: all 0.4s ease;}
+.red-social img:hover {transform: scale(1.2);}
+.red-social img:hover + span {visibility: visible;}
 .red-social span {
 	background: #212121;
 	border-right: 2px solid #FFF;
@@ -157,21 +136,11 @@ aside img:hover {
 	position: absolute;
 	z-index: 100;
 }
-#span-1 {
-	margin-top: 0.4em;
-}
-#span-2 {
-	margin-top: 4.4em;
-}
-#span-3 {
-	margin-top: 8.4em;
-}
-#span-4 {
-	margin-top: 12.4em;
-}
-#span-5 {
-	margin-top: 16.4em;
-}
+#span-1 {margin-top: 0.4em;}
+#span-2 {margin-top: 4.4em;}
+#span-3 {margin-top: 8.4em;}
+#span-4 {margin-top: 12.4em;}
+#span-5 {margin-top: 16.4em;}
 .red-social span:after {
 	content: "";
 	border-left: 10px solid transparent;
@@ -183,9 +152,7 @@ aside img:hover {
 	display: block;
 	position: absolute;
 }
-.clear-left {
-	clear: left;
-}
+.clear-left {clear: left;}
 .item {
 	background: #FFF;
 	border: 1px solid #D6D6D6;
@@ -205,9 +172,7 @@ aside img:hover {
 	padding-left: 2em;
     text-shadow: 1px 2px 2px #000;
 }
-.item p {
-	padding: 0.5em;
-}
+.item p {padding: 0.5em;}
 .row {
 	text-align: center;
 	margin: 1em 1em;
@@ -230,66 +195,36 @@ aside img:hover {
 	height: 250px;
 	width: 80%;
 }
-.flotar-left {
-	float: left;
-}
-.col-1 {
-	width: 10%;
-}
-.col-2 {
-	width: 20%;
-}
-.col-3 {
-	width: 30%;
-}
-.col-4 {
-	width: 40%;
-}
-.col-5 {
-	width: 50%;
-}
-.col-6 {
-	width: 60%;
-}
-.col-7 {
-	width: 70%;
-}
-.col-8 {
-	width: 80%;
-}
-.col-9 {
-	width: 90%;
-}
-.col-10 {
-	width: 100%;
-}
+.flotar-left {float: left;}
+.col-1 {width: 10%;}
+.col-2 {width: 20%;}
+.col-3 {width: 30%;}
+.col-4 {width: 40%;}
+.col-5 {width: 50%;}
+.col-6 {width: 60%;}
+.col-7 {width: 70%;}
+.col-8 {width: 80%;}
+.col-9 {width: 90%;}
+.col-10 {width: 100%;}
 
 #barra-bottom {
 	transition: all 0.1s ease-in;
 	visibility: hidden;
 }
-#red-socials {
-	transition: all 0.1s ease-in;
-}
+#red-socials {transition: all 0.1s ease-in;}
 
 @media screen and (max-width: 900px) {
-	.frase p {
-		font-size: 2em;
-	}
-	.item .item-title h4 {
-		font-size: 0.8em;
-	}
+	.frase p {font-size: 2em;}
+	.item .item-title h4 {font-size: 0.8em;}
 }
 
 @media screen and (max-width: 800px) {
-	.col-2 {
-		width: 40%;
-	}
+	.col-2 {width: 40%;}
 	.red-social span {
 		padding: 0.2em;
 		overflow: hidden;
     	text-overflow: ellipsis;
     	white-space: nowrap;
-		width: 50%;
+		width: none;
 	}
 }
